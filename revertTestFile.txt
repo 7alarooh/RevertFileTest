@@ -5,6 +5,7 @@ you can use the git revert command.
 This command creates a new commit that undoes the changes introduced by a specific commit,
 while preserving the project's history.
 
+<<<<<<< HEAD
 Steps to Revert a Commit:
 1. Identify the commit you want to revert
 2. Revert the commit: Use the git revert command followed by the commit hash.
@@ -25,3 +26,5 @@ Reverting the Last Commit:
 If you want to revert the most recent commit (HEAD), you can simply do:
 git revert HEAD
 This will undo the latest commit.
+=======
+>>>>>>> parent of c02d3ba (Steps to Revert a Commit)
