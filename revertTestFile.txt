@@ -10,3 +10,18 @@ Steps to Revert a Commit:
 2. Revert the commit: Use the git revert command followed by the commit hash.
 3. Resolve merge conflicts (if any)
 4. Push the changes
+
+Example:
+# Show commit history
+git log
+
+# Revert a specific commit (example commit hash)
+git revert abc1234
+
+# Push the revert commit
+git push origin main
+
+Reverting the Last Commit:
+If you want to revert the most recent commit (HEAD), you can simply do:
+git revert HEAD
+This will undo the latest commit.
